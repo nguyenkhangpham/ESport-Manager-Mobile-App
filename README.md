@@ -1,21 +1,94 @@
-# ESport-Manager-Mobile-App
-ESport Manager Mobile App for K&amp;H Hackathons
-![image](./demo.png)
-## High Level Summary 
-ESport Manager Mobile App project is a Flutter/Dart mobile application for esportmanager.com desktop platform, inheriting the existing features from the desktop platform and developing more new features to make it more relevant and accessible to more users.
-## How does it work?
-About the login and account registration interface, we recommend that users can quickly login / register through social networking platforms such as Facebook, Google, Twitter or Apple ID . This allows users to easily access the application to reach more users and help share and spread information on different platforms such as sharing the tournament live stream on Facebook. 
-The application inherits most of the features from the desktop platform, and of course the two main features are Tournaments and Challenges.
-In the Tournaments feature, It involves individual users or teams competing against each other in different formats (single elimination, double elimination, swiss system) for prize pools. Through the mobile application, users can easily manage, access and create their own tournaments.
-Players can also easily choose to watch tournaments broadcast live through the app, our project is solution for automatic or semi-automatic score reporting for games without API connection, the app uses OCR (Optical) character recognition) is built on Python language to read the score from the screenshot of game streaming screen and update the score on the app server automatically. In addition, to ensure absolute accuracy, each match will have a referee or commentator, who can check and edit information about the match if there are errors or are considered semi- automatic score reporting.
-![image](./demo2.png)
-Challenge is a unique feature in which esportmanager.com offers a unique Challenge feature, where users bet against each other in CS:GO, LoL, and more. Users can initiate challenges and search for teammates with the "Find teammates around" feature, based on player’s location and info/achievements.
-Finally, to make the connection between users and applications more cohesive, we design each user a unique profile based on parameters, skills, and achievements in game battles, to rank rankings in each field. Data is collected through Riot Games API (League of Legends) and Steam web API (Counter-Strike). Decision trees predict team win/loss performance and neural networks predict a player's chance of winning a match based on past performance and opponent's performance.
-From here, each player will receive their own achievements/badges, I believe this helps stimulate players to try to improve their skills even more.
-Finally, the application allows players to message and share information with each other easily, creating a dynamic and interesting playground.
-## Video Source
-https://www.youtube.com/watch?v=8ONpJKNK96E
-## Coding Languages
-- Flutter.
-- Dart.
-- Python.
+
+# esport_manager_mobile_app
+
+<div>
+  <h1 align="center">Getting Started with Flutter 🚀 </h1>
+  <strong>
+    Generated with ❤️ from DhiWise
+  </strong>
+  <p>
+    This is the documentation of Flutter Applications.
+    It contains all the information you need to get started with
+    and make changes to your App
+  </p>
+</div>
+
+
+### Table of Contents
+- [System Requirements](#system-requirements)
+- [Figma design guidelines for better accuracy](#figma-design-guideline-for-better-accuracy)
+- [App Navigations](#app-navigations)
+- [Project Structure](#project-structure)
+- [How you can do code formatting?](#how-you-can-do-code-formatting)
+- [How you can improve the readability of code?](#how-you-can-improve-the-readability-of-code)
+- [Libraries and tools used](#libraries-and-tools-used)
+- [Support](#support)
+
+### System Requirements
+
+Dart SDK Version 2.18.0 or greater.
+Flutter SDK Version 3.3.0 or greater.
+
+### Figma design guidelines for better accuracy
+
+Read our guidelines to increase the accuracy of design conversion to code by optimizing Figma designs.
+https://docs.dhiwise.com/docs/Designguidelines/intro
+
+### App Navigations
+
+Check your app's UI from the AppNavigation screen of your app.
+
+### Project Structure
+
+After successful build, your application structure should look like this:
+
+```
+.
+├── android                         - contains files and folders required for running the application on an Android operating system.
+├── assets                          - contains all images and fonts of your application.
+├── ios                             - contains files required by the application to run the dart code on iOS platforms.
+├── lib                             - Most important folder in the project, used to write most of the Dart code.
+    ├── main.dart                   - starting point of the application
+    ├── core
+    │   ├── app_export.dart         - contains commonly used file imports 
+    │   ├── constants               - contains all constants classes
+    │   ├── errors                  - contains error handling classes                  
+    │   ├── network                 - contains network related classes
+    │   └── utils                   - contains common files and utilities of project
+    ├── data
+    │   ├── apiClient               - contains API calling methods 
+    │   ├── models                  - contains request/response models 
+    │   └── repository              - network repository
+    ├── localization                - contains localization classes
+    ├── presentation                - contains all screens and screen controllers
+    │   └── screens                 - contains all screens
+    ├── routes                      - contains all the routes of application
+    └── theme                       - contains app theme and decoration classes
+    └── widgets                     - contains all custom widget classes
+```
+
+### How you can do code formatting?
+
+- if your code is not formatted then run following command in your terminal to format code
+  ```
+  dart format .
+  ```
+
+### How you can improve the readability of code?
+
+Resolve the errors and warnings that are shown in the application.
+
+### Libraries and tools used
+
+- get - State management
+  https://pub.dev/packages/get
+- connectivity_plus - For status of network connectivity
+  https://pub.dev/packages/connectivity_plus
+- shared_preferences - Provide persistent storage for simple data
+  https://pub.dev/packages/shared_preferences
+- cached_network_image - For storing internet image into cache
+  https://pub.dev/packages/cached_network_image
+
+### Support
+
+If you have problems or questions go to our Discord channel, we will then try to help you as quickly as possible: https://discord.com/invite/rFMnCG5MZ7
