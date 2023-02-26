@@ -1,0 +1,1 @@
+class Tournament1ItemModel {}
