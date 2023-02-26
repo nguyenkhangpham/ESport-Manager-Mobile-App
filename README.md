@@ -1,6 +1,6 @@
 # ESport-Manager-Mobile-App
 ESport Manager Mobile App for K&amp;H Hackathons
-![image](./Frame 454.jpg)
+![image](./demo.png)
 ## High Level Summary 
 ESport Manager Mobile App project is a Flutter/Dart mobile application for esportmanager.com desktop platform, inheriting the existing features from the desktop platform and developing more new features to make it more relevant and accessible to more users.
 ## How does it work?
